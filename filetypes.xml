@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="pxengineadminindex" type="PLAIN_TEXT" />
+      <mapping pattern="pxengineaction" type="PLAIN_TEXT" />
+      <mapping pattern="pxengineindex" type="PLAIN_TEXT" />
+      <mapping ext="tmpl" type="Smarty" />
+    </extensionMap>
+  </component>
+</application>

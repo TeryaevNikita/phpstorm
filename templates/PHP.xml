@@ -1,0 +1,15 @@
+<templateSet group="PHP">
+  <template name="soapd" value="dump($service$-&gt;__getLastRequest(), $service$-&gt;__getLastResponse());$ENDS$" description="Soap Trace Dump data" toReformat="false" toShortenFQNames="true">
+    <variable name="service" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ENDS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="soapsurr" value="dump($SELECTION$-&gt;__getLastRequest(), $SELECTION$-&gt;__getLastResponse());$ENDS$" description="Surround soap dump" toReformat="false" toShortenFQNames="true">
+    <variable name="ENDS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
