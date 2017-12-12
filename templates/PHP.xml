@@ -12,4 +12,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="ttime" value="$ttime_count = 1000;&#10;$ttime_1 = microtime(true);&#10;for($ttime_ind = 0; $ttime_ind &lt;= $ttime_count; $ttime_ind++){&#10;}&#10;$ttime_2 = microtime(true);&#10;for($ttime_ind = 0; $ttime_ind &lt;= $ttime_count; $ttime_ind++){&#10;}&#10;$ttime_3 = microtime(true);&#10;&#10;dump($ttime_2 - $ttime_1);&#10;dump($ttime_3 - $ttime_2);" description="Compare two variants" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
