@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern=".placeholder" type="PLAIN_TEXT" />
       <mapping pattern="pxengineadminindex" type="PLAIN_TEXT" />
       <mapping pattern="pxengineaction" type="PLAIN_TEXT" />
       <mapping pattern="pxengineindex" type="PLAIN_TEXT" />
