@@ -4,6 +4,7 @@
       <mapping pattern=".placeholder" type="PLAIN_TEXT" />
       <mapping pattern="pxengineadminindex" type="PLAIN_TEXT" />
       <mapping pattern="pxengineaction" type="PLAIN_TEXT" />
+      <mapping pattern="FurniApiCallsRevision" type="PLAIN_TEXT" />
       <mapping pattern="pxengineindex" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="Smarty" />
