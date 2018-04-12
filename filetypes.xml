@@ -5,7 +5,10 @@
       <mapping pattern="dash_btc" type="JSON" />
       <mapping pattern="256_btc" type="JSON" />
       <mapping pattern="lux_btc" type="JSON" />
+      <mapping pattern="noo_btc" type="JSON" />
       <mapping pattern="info" type="JSON" />
+      <mapping pattern="sortedPairs" type="JSON" />
+      <mapping pattern="cam_btc" type="JSON" />
       <mapping pattern="ltc_btc" type="JSON" />
       <mapping pattern="lts_btc" type="JSON" />
       <mapping pattern="pxengineaction" type="PLAIN_TEXT" />
